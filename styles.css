@@ -4,3 +4,7 @@
   color: white;
   height: 300px;
 }
+
+.card-header p {
+  margin: 0;
+}

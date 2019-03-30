@@ -1,6 +1,6 @@
 .jumbotron {
   background-color: black;
-  max-width: 960px;
+  /* max-width: 960px; */
   color: white;
   height: 300px;
 }

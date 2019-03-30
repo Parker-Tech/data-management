@@ -53,4 +53,8 @@ database.ref().on("value", function(snapshot) {
 
 $(document).on("click", ".employeeRow", function(){
   $(this).remove();
+
+  database.ref().set({
+    employeeList: $(".employee-stage").html()
+  })
 })

@@ -1,6 +1,32 @@
+body {
+  background: #ffe;
+  font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+  letter-spacing: 1.5px;
+  padding-bottom: 50px;
+}
+
 .jumbotron {
-  background-color: black;
-  /* max-width: 960px; */
+  background-color: #4b0505;
   color: white;
-  height: 300px;
+  height: 200px;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.card-header {
+  background: #273c61;
+  color: #efefef;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  background: #efefef;
 }
